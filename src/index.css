@@ -116,6 +116,15 @@ body {
   animation: scaleIn 0.2s ease-out;
 }
 
+@keyframes heroSlideIn {
+  from { opacity: 0; transform: translateX(-48px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+.animate-hero-slide {
+  opacity: 0;
+  animation: heroSlideIn 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
 @keyframes shimmer {
   0% { background-position: -200% 0; }
   100% { background-position: 200% 0; }

@@ -64,16 +64,16 @@ export default function HomePage() {
         }} />
         <div className="relative mx-auto max-w-7xl px-4 py-12 sm:py-20">
           <div className="max-w-2xl">
-            <span className="inline-block rounded-full bg-primary-500/20 px-3 py-1 text-sm font-semibold text-primary-300">
+            <span className="animate-hero-slide inline-block rounded-full bg-primary-500/20 px-3 py-1 text-sm font-semibold text-primary-300" style={{ animationDelay: '0.1s' }}>
               Welcome to ShopVerse
             </span>
-            <h1 className="mt-4 text-3xl font-extrabold leading-tight text-white sm:text-5xl">
+            <h1 className="animate-hero-slide mt-4 text-3xl font-extrabold leading-tight text-white sm:text-5xl" style={{ animationDelay: '0.25s' }}>
               Everything you love, <span className="text-primary-400">delivered fast</span>
             </h1>
-            <p className="mt-4 max-w-lg text-lg text-gray-300">
+            <p className="animate-hero-slide mt-4 max-w-lg text-lg text-gray-300" style={{ animationDelay: '0.4s' }}>
               Shop millions of products across electronics, fashion, home, beauty and more. Free delivery on orders over $35.
             </p>
-            <div className="mt-6 flex flex-wrap gap-3">
+            <div className="animate-hero-slide mt-6 flex flex-wrap gap-3" style={{ animationDelay: '0.55s' }}>
               <Link
                 to="/search?deals=true"
                 className="btn-primary flex items-center gap-2 rounded-lg px-6 py-3 text-base font-semibold"
